@@ -83,4 +83,35 @@ Descripción: Historial de recogidas del cliente con paginación y acciones.
 Descripción: Sistema de generación de etiquetas con códigos de barras GLS y del sistema.
 
 [24/09/2024 - 23:44] Creado archivo cliente/etiquetas.php
-Descripción: Interfaz cliente para imprimir etiquetas de envío con instrucciones.[25/09/2025 - 01:43] Sistema: Base de datos inicializada
+Descripción: Interfaz cliente para imprimir etiquetas de envío con instrucciones.
+
+[24/09/2024 - 23:45] Creado archivo administrador/clientes.php
+Descripción: Gestión completa de clientes con creación, edición, tokens y estadísticas.
+
+[24/09/2024 - 23:45] Creado archivo administrador/repartidores.php
+Descripción: Gestión de repartidores con creación, edición, estadísticas de rendimiento.
+
+[24/09/2024 - 23:45] Creado archivo administrador/configuracion.php
+Descripción: Configuración del sistema, mantenimiento de BD y estadísticas técnicas.
+
+[24/09/2024 - 23:45] Creado archivo includes/backup_db.php
+Descripción: Utilidad para descargar backup de la base de datos SQLite.
+
+[24/09/2024 - 23:45] Creado archivo cliente/recogida_detalle.php
+Descripción: Vista detallada de recogida con paquetes, historial y permisos por rol.
+
+[24/09/2024 - 23:45] Creado archivos administrador/recogida_detalle.php y repartidor/recogida_detalle.php
+Descripción: Redirecciones que reutilizan la vista detallada con permisos apropiados.
+
+[24/09/2024 - 23:45] Creado archivo index.php
+Descripción: Página principal que redirecciona según el tipo de usuario autenticado.
+
+[24/09/2024 - 23:45] Creado archivo database/add_sample_data.php
+Descripción: Script para agregar datos de ejemplo (cliente demo y repartidor).
+
+SISTEMA COMPLETADO - CREDENCIALES DE ACCESO:
+- Admin: admin / admin123
+- Repartidor: repartidor1 / delivery123  
+- Cliente token: c827a682d283ee7998fc5977e9584cb9[25/09/2025 - 01:43] Sistema: Base de datos inicializada
+[25/09/2025 - 01:57] Sistema: Base de datos inicializada
+[25/09/2025 - 01:58] Sample Data: Datos de ejemplo agregados al sistema
