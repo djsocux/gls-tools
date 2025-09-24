@@ -59,4 +59,28 @@ Descripción: Cierre de sesión para clientes.
 Descripción: Sistema de acceso principal para administradores y repartidores.
 
 [24/09/2024 - 23:39] Creado archivo database/init.php
-Descripción: Script de inicialización de base de datos con datos de ejemplo.[25/09/2025 - 01:43] Sistema: Base de datos inicializada
+Descripción: Script de inicialización de base de datos con datos de ejemplo.
+
+[24/09/2024 - 23:44] Creado archivo administrador/dashboard.php
+Descripción: Panel principal del administrador con estadísticas y gestión de recogidas pendientes.
+
+[24/09/2024 - 23:44] Creado archivo administrador/recogidas.php
+Descripción: Gestión completa de recogidas con filtros, cambio de estados y asignación a repartidores.
+
+[24/09/2024 - 23:44] Creado archivo repartidor/dashboard.php
+Descripción: Panel táctil para repartidores con recogidas asignadas y actualización de estados.
+
+[24/09/2024 - 23:44] Creado archivo includes/ajax/update_status.php
+Descripción: API AJAX para actualización de estados de recogida con control de permisos.
+
+[24/09/2024 - 23:44] Creado archivo logout.php
+Descripción: Cierre de sesión para usuarios administradores y repartidores.
+
+[24/09/2024 - 23:44] Creado archivo cliente/mis_recogidas.php
+Descripción: Historial de recogidas del cliente con paginación y acciones.
+
+[24/09/2024 - 23:44] Creado archivo includes/print_label.php
+Descripción: Sistema de generación de etiquetas con códigos de barras GLS y del sistema.
+
+[24/09/2024 - 23:44] Creado archivo cliente/etiquetas.php
+Descripción: Interfaz cliente para imprimir etiquetas de envío con instrucciones.[25/09/2025 - 01:43] Sistema: Base de datos inicializada
